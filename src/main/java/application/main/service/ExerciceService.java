@@ -7,10 +7,10 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class ExerciceService {
-
     @Autowired
     private ExerciceRepo exerciceRepo;
 
@@ -24,5 +24,9 @@ public class ExerciceService {
 
     public void addExercice(Exercice exercice){
         exerciceRepo.save(exercice);
+    }
+
+    public void findById(Integer id){
+         exerciceRepo.findById(id);
     }
 }

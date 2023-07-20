@@ -1,7 +1,10 @@
 package application.main.metier;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.annotation.Nonnull;
 import jakarta.persistence.*;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
 
 import java.sql.Date;
 
@@ -12,9 +15,10 @@ public class Record {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id_record;
 
-    @ManyToOne
-    @Nonnull
-    @JoinColumn(name = "id_exo")
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "id_exo", nullable = false)
+    @OnDelete(action = OnDeleteAction.CASCADE)
+    @JsonIgnore
     private Exercice exercice;
 
     @Column

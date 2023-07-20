@@ -21,6 +21,10 @@ public class Exercice {
         this.nom_exo = nom;
     }
 
+    public Exercice(Integer id_exo) {
+        this.id_exo = id_exo;
+    }
+
     public Integer getId_exo() {
         return id_exo;
     }

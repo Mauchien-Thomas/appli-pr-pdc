@@ -1,5 +1,6 @@
 package application.main.service;
 
+import application.main.metier.Exercice;
 import application.main.metier.Record;
 import application.main.repo.RecordRepo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,11 +25,19 @@ public class RecordService {
         return records;
     }
 
+    //record par rapport a un exo précis
+    public List<Record> getRecordByExo(Exercice exercice) {
+        List<Record> records = new ArrayList<>();
+        recordRepo.findRecordByExo(exercice).forEach(record -> {
+            records.add(record);
+        });
+        return records;
+    }
+
     public void addRecord(Record record){
         long miliseconds = System.currentTimeMillis();
         Date date = new Date(miliseconds);
         record.setPr_date(date);
-        System.out.println("2001 tata: "+record.getExercice());
         recordRepo.save(record);
     }
 }
