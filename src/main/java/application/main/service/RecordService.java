@@ -26,6 +26,8 @@ public class RecordService {
     }
 
     //record par rapport a un exo précis
+
+
     public List<Record> getRecordByExo(Exercice exercice) {
         List<Record> records = new ArrayList<>();
         recordRepo.findRecordByExo(exercice).forEach(record -> {
@@ -33,6 +35,10 @@ public class RecordService {
         });
         return records;
     }
+
+
+
+
 
     public void addRecord(Record record){
         long miliseconds = System.currentTimeMillis();

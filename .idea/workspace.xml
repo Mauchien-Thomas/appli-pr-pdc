@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e049670d-66f2-4c7e-8c0e-df9e6b1da573" name="Changes" comment="commit du projet">
+    <list default="true" id="e049670d-66f2-4c7e-8c0e-df9e6b1da573" name="Changes" comment="relation entre record et exercice fini ajustement des methodes get sur record">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/main/controlleur/RecordControlleur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/main/controlleur/RecordControlleur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/main/metier/Exercice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/main/metier/Exercice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/main/metier/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/main/metier/Record.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/main/repo/RecordRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/main/repo/RecordRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/main/service/ExerciceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/main/service/ExerciceService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/main/service/RecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/main/service/RecordService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application/main/controlleur/RecordControlleur.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/main/controlleur/RecordControlleur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application/main/metier/Exercice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/main/metier/Exercice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application/main/metier/Record.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/main/metier/Record.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application/main/service/ExerciceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/main/service/ExerciceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/main/repo/RecordRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/main/repo/RecordRepo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application/main/service/RecordService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/main/service/RecordService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688656074554</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="relation entre record et exercice fini ajustement des methodes get sur record">
+      <created>1689885933159</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689885933159</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,7 +116,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit du projet" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit du projet" />
+    <MESSAGE value="relation entre record et exercice fini ajustement des methodes get sur record" />
+    <option name="LAST_COMMIT_MESSAGE" value="relation entre record et exercice fini ajustement des methodes get sur record" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
